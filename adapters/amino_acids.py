@@ -1,11 +1,13 @@
+#!/usr/bin/env python3
+#
+# Amino Acid Adapter to Smiles
+#
+# ----------------------------
 
-test = 'RSTEFGHIKLADPQ'
-smiles = 'NC(CCCCNC(N)=N)C(NC(CO)C(NC(C(C)([H])O)C(NC(CCC(O)=O)C(NC(CC1=CC=CC=C1)C(NC([H])C(NC(CC1=CNC=N1)C(NC(C(CC)([H])C)C(NC(CCCCN)C(NC(CC(C)C)C(NC(C)C(NC(CC(O)=O)C(NC(C2CCCN2)C(NC(CCC(N)=O)C(NCC(O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O'
 
 class AminoAcidAdapter(object):
     
     __version__ = '0.0.1'
-
 
     def convert_amino_acid_sequence_to_smiles(self, sequence):
 
@@ -113,7 +115,3 @@ class AminoAcidAdapter(object):
             sequence += amino_acids_sequence[match]
 
         return sequence
-
-    adapter = AminoAcidAdapter()
-    smiles = adapter.convert_amino_acid_sequence_to_smiles(test)
-    adapter.convert_smiles_to_amino_acid_sequence(smiles)

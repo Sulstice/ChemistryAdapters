@@ -25,8 +25,9 @@ Currently only one adapter is implemented which is the Amino Acids to SMILES and
 
 ```python
 
-test = 'RSTEFGHIKLADPQ'
+from chemistry_adapters.amino_acids import AminoAcidAdapter
 
+test = 'RSTEFGHIKLADPQ'
 
 adapter = AminoAcidAdapter()
 smiles = adapter.convert_amino_acid_sequence_to_smiles(test)

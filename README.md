@@ -15,7 +15,7 @@ it yourself.
 
 ```
 
-pip install 
+pip install chemistry-adapters
 
 ```
 Using Adapters

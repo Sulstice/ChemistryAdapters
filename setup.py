@@ -30,8 +30,8 @@ else:
 # ----
 setup(
     name='chemistry_adapters',
-    version="0.0.1",
-    packages=['adapters'],
+    version="0.0.2",
+    packages=['chemistry_adapters'],
     license='MIT',
     author="Suliman Sharif",
     author_email="sharifsuliman1@gmail.com",
@@ -44,7 +44,7 @@ setup(
     classifiers=[
         'Development Status :: 4 - Beta',
         'Natural Language :: English',
-        'License :: OSI Approved :: MIT license',
+        'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',

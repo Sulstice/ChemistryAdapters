@@ -5,6 +5,6 @@
 # -----------------------------
 
 
-from adapters.amino_acids import AminoAcidAdapter
+from chemistry_adapters.amino_acids import AminoAcidAdapter
 
 name='ChemistryAdapters'

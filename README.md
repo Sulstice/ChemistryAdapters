@@ -4,6 +4,7 @@ Chemistry Adapters
 [![PyPI version](https://badge.fury.io/py/chemistry-adapters.svg)](https://badge.fury.io/py/chemistry-adapters)
 ![Python](https://img.shields.io/badge/python-3.6-blue.svg)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![DOI](https://zenodo.org/badge/421212417.svg)](https://zenodo.org/badge/latestdoi/421212417)
 
 A place for quick conversions between languages using SMILES as the base key. A Quick Converter From Amino Acid Sequences to Smiles and Back again. 
 
